@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice It Up.</title>
+    <link href="layout.css" rel="stylesheet">
+</head>
+<body class="page2_body">
+    <div class="header">
+        <a class="headerLink" href="page1.html">Project CAYENNE</a>
+        <a class="headerLink" href="page2.html">Try CAYENNE</a>
+        <a class="headerLink" href="page3.html">Resources</a>
+        <a class="headerLink" href="page4.html">How it Works</a>
+    </div>
+
+    <div class="page2_content">
+        <H1 id="page2_title">Spice <br>It Up.</H1>
+
+        <div class="page2_form">
+            <form action="/form-receiving-url" method="post">
+                <fieldset>
+                    <legend>Add a Deck</legend>
+                    <div>
+                        <label for="deck-name">Deck Name</label>
+                        <input type="text" id="deck-name" name="deckName">
+                    </div>
+                    <div>
+                        <label for="commander">Commander</label>
+                        <input type="text" id="commander" name="commander">
+                    </div>
+                    <div>
+                        <label for="partner">Partner?</label>
+                        <input type="checkbox" id="partner" name="partner">
+                    </div>
+                    <div class="page2_list">
+                        <label id="page2_listlabel" for="list">List</label>
+                        <textarea id="list" name="list" placeholder="x1 Sol Ring
+                        x1 Arcane Signet
+                        x1 Mana Crypt"
+                        rows="25" cols="10"></textarea>
+                    </div>
+                    <button id="page2_button" type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

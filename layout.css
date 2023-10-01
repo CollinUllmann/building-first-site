@@ -1,0 +1,203 @@
+html {
+    height:100%;
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin:0;
+    height:100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+}
+
+.page1_body {
+    background-color: #1E2019; 
+}
+
+H1 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#page1_title {
+    z-index: 2;
+    color: #EBEBD3;
+    font-size: 1000%;
+}
+
+#pepper {
+    z-index: 0;
+    height:65%;
+}
+
+.logo {
+    display:flex;
+    justify-content: center;
+    margin: 0 10% 0 10%;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page1_subtitle {
+    display:flex;
+    justify-content: center;
+    font-size: 300%;
+    color: #EBEBD3;
+}
+
+.page1_bodytext {
+    margin: 0 20%;
+}
+
+.page1_text {
+    font-weight: 570;
+    color:#EBEBD3
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color:#EBEBD3;
+    align-items: baseline;
+}
+
+.letter {
+    font-size: 200%;
+}
+
+
+.headerLink {
+    color: #33A34E;
+}
+
+.headerLink:visited {
+    color: #33A34E;
+}
+
+.page2_body {
+    background: linear-gradient(#1E2019, #CB1C2B);  
+}
+
+#page2_title {
+    font-size: 1000%;
+    color: #EBEBD3;
+}
+
+.page2_content {
+    display:flex;
+    justify-content: center;
+}
+
+.page2_form {
+    margin-top: 150px;
+    margin-left: 20px;
+    font-size: 100%;
+    font-weight: 570;
+}
+fieldset {
+    border: 2px solid #33A34E;
+    background-color: #1E2019;
+    color: #EBEBD3;
+}
+
+legend {
+    border: 2px solid #33A34E;
+    background-color: #33A34E;
+    color: #1E2019;
+}
+
+.page2_list {
+    display: flex;
+    flex-direction: column;
+}
+
+#list {
+    line-height: 10px;
+    max-width: 190px;
+}
+#page2_listlabel {
+    vertical-align: top;
+}
+
+#page2_button {
+    display: flex;
+    justify-content: center;
+}
+
+#page3_title {
+    font-size: 1000%;
+    color: #1E2019;
+}
+
+.page3_body {
+    background: linear-gradient(#EBEBD3, #33A34E);
+}
+
+.page3_linkList {
+    line-height: 200%;
+    font-size: 30px;
+}
+
+.page3_linkListItem {
+    color: #1E2019;
+}
+
+.page3_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page3_subtitle {
+    font-size: 30px;
+    margin-top: -100px;
+}
+
+.page4_body {
+    background-color: #EBEBD3;
+}
+
+.page4_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page4_title {
+    font-size: 1000%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.page4_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
+}
+
+.imageWithLabel {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+}
+
+.page4_image {
+    max-width:400px;
+    border: 2px solid #33A34E;
+    margin: 10px;
+}
+
+.page4_imageLabel {
+    margin: 0 10% 0 2%;
+}
+
